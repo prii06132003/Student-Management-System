@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h2>Student Management System</h2>
+
+    <form method="POST" action="/add">
+        <input type="text" name="roll" placeholder="Roll Number" required>
+        <input type="text" name="name" placeholder="Student Name" required>
+        <input type="text" name="branch" placeholder="Branch" required>
+        <button type="submit">Add Student</button>
+    </form>
+
+    <h3>Student List</h3>
+    <ul>
+        {% for s in students %}
+            <li>
+                {{ s[0] }} - {{ s[1] }} ({{ s[2] }})
+                <a href="/delete/{{ s[0] }}">Delete</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+
+</body>
+</html>
