@@ -65,7 +65,7 @@ pip install flask
 python app.py
 
 ### Step 4: Open in browser
-http://127.0.0.1:5000/
+[http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
 ---
 
@@ -109,3 +109,4 @@ Student | Python Developer
 
 ⭐ Support
 If you like this project, don’t forget to star ⭐ the repository!
+
