@@ -1,30 +1,19 @@
-# Student Management System
+# Student Management System (Python + SQLite)
 
-A Python-based console application for managing student records.  
-This project performs basic CRUD operations using file handling.
-
----
+An intermediate-level Python project for managing student records using a database.
 
 ## 🚀 Features
-- Add new student records  
-- View all students  
-- Search student by roll number  
-- Update student details  
-- Delete student records  
-- Data stored using JSON file  
-- Menu-driven interface  
+- Add, view, search, update, and delete students
+- Uses SQLite database
+- Menu-driven CLI application
+- Persistent data storage
+- Modular code structure
 
----
-
-## 🛠️ Technologies Used
+## 🛠 Technologies Used
 - Python
-- File Handling (JSON)
+- SQLite
 - Git & GitHub
 
----
-
-## ▶️ How to Run the Project
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/prii06132003/Student-Management-System.git
+## ▶️ How to Run
+```bash
+python main.py
